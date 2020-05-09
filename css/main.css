@@ -63,12 +63,14 @@ body{
 }
 
 .hyperlinks-footer-left{
+    color: hsl(213, 5%, 39%);
     text-decoration: none;
     padding-left: 27px;
     font-size: 14px;
 }
 
 .hyperlinks-footer-right{
+    color: hsl(213, 5%, 39%);
     text-decoration: none;
     padding-right: 27px;
     font-size: 14px;
