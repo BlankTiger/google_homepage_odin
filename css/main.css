@@ -37,17 +37,49 @@ body{
 
 .hyperlinks-navbar{
     color: hsla(0, 0%, 0%, 0.87);
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.hyperlinks-navbar:hover{
+    opacity: .85;
+    text-decoration: underline;
 }
 
 #sign-in-button{
+    background-color: hsla(0, 0%, 0%, 0);
+    background-image: -webkit-linear-gradient(top, hsl(218, 98%, 63%), hsl(218, 80%, 60%));
+    color: hsl(0, 0%, 100%);
+    cursor: default;
+    outline: none;
+    margin-left: 15px;
+    line-height: 28px;
+    padding: 0px 12px;
+    border-radius: 1px;
+}
+
+#sign-in-button:hover{
+    box-shadow: 0 1px 0 rgba(0,0,0,.15);
 }
 
 .hyperlinks-footer-left{
+    text-decoration: none;
     padding-left: 27px;
+    font-size: 14px;
 }
 
 .hyperlinks-footer-right{
+    text-decoration: none;
     padding-right: 27px;
+    font-size: 14px;
+}
+
+.hyperlinks-footer-left:visited, .hyperlinks-footer-right:visited{
+    color: hsl(213, 5%, 39%);
+}
+
+.hyperlinks-footer-left:hover, .hyperlinks-footer-right:hover{
+    text-decoration: underline;
 }
 
 .navbar-items{
@@ -58,8 +90,13 @@ body{
     padding-left: 0px;
 }
 
+.navbar-items:nth-child(3){
+    height: 18px;
+    width: auto;
+}
+
 #nav-bar{
-    padding: 10px;
+    padding: 20px 30px;
     align-items: center;
     justify-content: flex-end;
 }
