@@ -1,9 +1,14 @@
+html{
+    height: 100%;
+}
+
 body{
     background-color: hsl(0, 0%, 100%);
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     font-family: arial, sans-serif;
 }
 
@@ -31,8 +36,26 @@ body{
 }
 
 .hyperlinks-navbar{
+    color: hsla(0, 0%, 0%, 0.87);
+}
 
+#sign-in-button{
+}
 
+.hyperlinks-footer-left{
+    padding-left: 27px;
+}
+
+.hyperlinks-footer-right{
+    padding-right: 27px;
+}
+
+.navbar-items{
+    padding-left: 15px;
+}
+
+.navbar-items:first-child{
+    padding-left: 0px;
 }
 
 #nav-bar{
@@ -76,6 +99,14 @@ body{
     width: 24px;
     height: 24px;
     padding: 9px;
+}
+
+footer{
+    padding: 10px 0px;
+    background-color: hsl(0, 0%, 95%);
+    border-top: 1px solid hsl(0, 0%, 89%);
+    align-items: center;
+    justify-content: space-between;
 }
 
 main{
